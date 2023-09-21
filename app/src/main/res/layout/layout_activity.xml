@@ -21,18 +21,42 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Não obstante, a percepção das ."
+        android:text="Esse é o aplicativo AGA"
         android:textSize="15dp" />
-
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+    <TextView
+        android:id="@+id/txtCompania"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="3dp"
+        android:text="AGA"
+        android:textSize="40dp" />
 
     <TextView
         android:id="@+id/txtCompania"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="50dp"
-        android:text="Não obstante, a percepção das ."
+        android:layout_marginTop="2dp"
+        android:text="MELHOR APP DO MUNDO"
         android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="300sp"
+        android:layout_height="65sp"
+        android:padding="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Entrar"
+        android:textAllCaps="true" />
 
 
 </LinearLayout>
